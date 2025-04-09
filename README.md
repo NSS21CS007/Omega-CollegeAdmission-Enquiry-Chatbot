@@ -29,4 +29,24 @@ A simple, intelligent chatbot built using **Python**, **PyTorch**, and **Natural
 
 ---
 
+---
+
+## 🧠 How It Works
+
+1. Load and preprocess text from `intents.json`
+2. Apply stemming and convert patterns into bag-of-words vectors
+3. Train a feedforward neural network to predict intent tags
+4. Save trained model parameters and metadata to `data.pth`
+5. Use the model in a chatbot interface to respond to user queries
+
+---
+
+## 💻 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/NSS21CS007/college-enquiry-chatbot.git
+cd college-enquiry-chatbot
+
 
